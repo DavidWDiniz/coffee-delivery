@@ -1,8 +1,22 @@
 import styled from 'styled-components'
+import background from '../../assets/background.png'
 
 export const HomeContainer = styled.main`
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  section {
+    width: 100vw;
+    height: 544px;
+    background: url(${background}) no-repeat center;
+    background-size: cover;
+
+    div {
+      max-width: 1120px;
+    }
+  }
 `
 
 export const CoffeesContainer = styled.div`

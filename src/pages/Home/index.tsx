@@ -9,6 +9,11 @@ export function Home() {
 
   return (
     <HomeContainer>
+      {/*<section>*/}
+      {/*  <div>*/}
+      {/*    <p>dafsaf</p>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
       <CoffeesContainer>
         <h2>Nossos cafés</h2>
         <CoffeesWrapper>
